@@ -115,6 +115,40 @@ header {
   transform: translate(-0.75rem, 0.75rem);
 }
 
+.stack {
+  padding: 1rem 5rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: 2px solid #FFFFFF;
+  background: #D81B60;
+}
+
+.stack:hover {
+  color: #D81B60;
+  border-color: #D81B60;
+  background: #FFFFFF;
+}
+
+.stack::after {
+  content: "";
+  background-color: #FFFFFF;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.stack:hover::after {
+  transform: translate(-0.75rem, 0.75rem);
+}
+
 /***** Grid Layout *****/
 .grid-item {
   padding: 10rem 0;
