@@ -108,7 +108,7 @@ header {
   left: 0;
   right: 0;
   z-index: -1;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .jmp-out:hover::after {
@@ -137,7 +137,7 @@ header {
   left: 0;
   right: 0;
   z-index: -1;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .stack:hover::after {
@@ -146,6 +146,7 @@ header {
 
 .cart-check {
   background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
 }
 
 .cart-check svg {
