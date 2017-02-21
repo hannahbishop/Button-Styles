@@ -87,6 +87,28 @@ button,
   letter-spacing: 0.1rem;
 }
 
+button {
+  position: relative;
+  margin: 1rem;
+  padding: 1rem 5rem;
+}
+
+.btn-txt {
+  vertical-align: middle;
+}
+
+.btn-icons {
+  position: absolute;
+  left: 1.6rem;
+}
+
+.btn-icon {
+  height: 2rem;
+  vertical-align: middle;
+  padding-right: 1.6rem;
+  position: absolute;
+}
+
 header {
   padding-bottom: 5rem;
   padding-top: 3rem;
@@ -231,26 +253,4 @@ li {
 
 .grid-color-5 {
   background: #546E7A;
-}
-
-button {
-  position: relative;
-  margin: 1rem;
-  padding: 1rem 5rem;
-}
-
-.btn-txt {
-  vertical-align: middle;
-}
-
-.btn-icons {
-  position: absolute;
-  left: 1.6rem;
-}
-
-.btn-icon {
-  height: 2rem;
-  vertical-align: middle;
-  padding-right: 1.6rem;
-  position: absolute;
 }
