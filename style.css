@@ -115,7 +115,10 @@ header {
 
 /***** Grid Layout *****/
 .grid-item {
-  padding: 10rem;
+  padding: 10rem 0;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 /***** Grid Colors *****/
