@@ -159,6 +159,14 @@ header {
   fill: #FFFFFF;
 }
 
+.check-mark {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
 /***** Grid Layout *****/
 .grid-item {
   float: left;
