@@ -127,6 +127,11 @@ header {
   }
 }
 
+.btn-list {
+  position: relative;
+  z-index: 1;
+}
+
 /***** Grid Colors *****/
 .grid-color-1 {
   background: #00897B;
