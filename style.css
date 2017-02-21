@@ -1,212 +1,87 @@
-html {
-  font-size: 0.625em;
-}
+/*
+Error: Undefined variable: "$icon-height".
+        on line 6 of C:/Users/Hannah/Documents/GitHub/button-styles/sass/partials/_cart-check.scss
+        from line 13 of C:/Users/Hannah/Documents/GitHub/button-styles/sass/style.scss
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
+1: // Modules/Variables
+2: @import "partials/base";
+3: 
+4: // Compass
+5: @import "compass/css3/flexbox";
+6: 
+7: // Other Partials
+8: @import "partials/reset";
+9: @import "partials/typography";
+10: @import "partials/header";
+11: @import "partials/jmp-out";
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-mark {
-  background-color: transparent;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-button {
-  background: none;
-  border: none;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-h1 {
-  font-family: "filson-pro", Helvetica, sans-serif;
-  font-size: 5rem;
-  color: #000000;
-  letter-spacing: 0.05rem;
-  line-height: 6rem;
-  text-transform: uppercase;
-  font-weight: 900;
-  text-align: center;
-}
-
-p {
-  font-family: "filson-pro", Helvetica, sans-serif;
-  font-size: 1.8rem;
-  color: #000000;
-  letter-spacing: 0.1rem;
-  font-weight: 100;
-  text-align: center;
-}
-
-button,
-.btn-txt {
-  color: #FFFFFF;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-header {
-  padding-bottom: 5rem;
-  padding-top: 3rem;
-}
-
-.jmp-out {
-  border: 2px solid #FFFFFF;
-  background: #00897B;
-}
-
-.jmp-out::after {
-  content: "";
-  background-color: #FFFFFF;
-  opacity: 1;
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  transition: all 0.3s ease;
-}
-
-.jmp-out:hover::after {
-  transform: translate(-0.75rem, 0.75rem);
-}
-
-.stack {
-  border: 2px solid #FFFFFF;
-  background: #D81B60;
-}
-
-.stack:hover {
-  color: #D81B60;
-  border-color: #D81B60;
-  background: #FFFFFF;
-}
-
-.stack::after {
-  content: "";
-  background-color: #FFFFFF;
-  opacity: 1;
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  transition: all 0.3s ease;
-}
-
-.stack:hover::after {
-  transform: translate(-0.75rem, 0.75rem);
-}
-
-.cart-check {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.shopping-cart {
-  fill: #FFFFFF;
-}
-
-/***** Grid Layout *****/
-.grid-item {
-  float: left;
-  padding: 10rem 0;
-  width: 50%;
-  box-sizing: border-box;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-@media screen and (max-width: 720px) {
-  .grid-item {
-    width: 100%;
-  }
-}
-
-li {
-  display: inline-block;
-}
-
-.btn-list {
-  position: relative;
-  z-index: 1;
-}
-
-.btn-list li {
-  margin: 1rem;
-}
-
-/***** Grid Colors *****/
-.grid-color-1 {
-  background: #00897B;
-}
-
-.grid-color-2 {
-  background: #D81B60;
-}
-
-.grid-color-3 {
-  background: #1E88E5;
-}
-
-.grid-color-4 {
-  background: #5E35B1;
-}
-
-.grid-color-5 {
-  background: #546E7A;
-}
-
-button {
-  position: relative;
-  margin: 1rem;
-  padding: 1rem 5rem;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
+Backtrace:
+C:/Users/Hannah/Documents/GitHub/button-styles/sass/partials/_cart-check.scss:6
+C:/Users/Hannah/Documents/GitHub/button-styles/sass/style.scss:13
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$icon-height\".\A         on line 6 of C:/Users/Hannah/Documents/GitHub/button-styles/sass/partials/_cart-check.scss\A         from line 13 of C:/Users/Hannah/Documents/GitHub/button-styles/sass/style.scss\A \A 1: // Modules/Variables\A 2: @import \"partials/base\";\A 3: \A 4: // Compass\A 5: @import \"compass/css3/flexbox\";\A 6: \A 7: // Other Partials\A 8: @import \"partials/reset\";\A 9: @import \"partials/typography\";\A 10: @import \"partials/header\";\A 11: @import \"partials/jmp-out\";"; }
