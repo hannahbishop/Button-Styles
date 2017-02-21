@@ -116,7 +116,7 @@ header {
 
 .jmp-out {
   border: 2px solid #FFFFFF;
-  background: #00897B;
+  background: #009688;
 }
 
 .jmp-out::after {
@@ -139,12 +139,12 @@ header {
 
 .stack {
   border: 2px solid #FFFFFF;
-  background: #D81B60;
+  background: #E91E63;
 }
 
 .stack:hover {
-  color: #D81B60;
-  border-color: #D81B60;
+  color: #E91E63;
+  border-color: #E91E63;
   background: #FFFFFF;
 }
 
@@ -232,15 +232,15 @@ li {
 
 /***** Grid Colors *****/
 .grid-color-1 {
-  background: #00897B;
+  background: #009688;
 }
 
 .grid-color-2 {
-  background: #D81B60;
+  background: #E91E63;
 }
 
 .grid-color-3 {
-  background: #1E88E5;
+  background: #673AB7;
 }
 
 .grid-color-4 {
