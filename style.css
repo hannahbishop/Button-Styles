@@ -108,10 +108,11 @@ header {
   left: 0;
   right: 0;
   z-index: -1;
+  transition: all 0.3s ease;
 }
 
 .jmp-out:hover::after {
-  transform: translate(-1rem, 1rem);
+  transform: translate(-0.75rem, 0.75rem);
 }
 
 /***** Grid Layout *****/
@@ -128,9 +129,17 @@ header {
   }
 }
 
+li {
+  display: inline-block;
+}
+
 .btn-list {
   position: relative;
   z-index: 1;
+}
+
+.btn-list li {
+  margin: 1rem;
 }
 
 /***** Grid Colors *****/
