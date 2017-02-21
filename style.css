@@ -94,6 +94,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   border: 2px solid #FFFFFF;
+  background: #00897B;
 }
 
 .jmp-out::after {
