@@ -149,13 +149,6 @@ header {
   padding: 1rem 2rem 1rem 4.6rem;
 }
 
-.cart-check svg {
-  height: 2rem;
-  vertical-align: middle;
-  padding-right: 1.6rem;
-  position: absolute;
-}
-
 .shopping-cart {
   height: 1.2rem;
 }
@@ -166,12 +159,29 @@ header {
   transition: all 0.2s ease;
 }
 
+.check-mark {
+  height: 1.2rem;
+  padding-left: 0.4rem;
+}
+
 .check-mark polyline {
   fill: none;
   stroke: #FFFFFF;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3px;
+  stroke-dasharray: 4rem;
+  stroke-dashoffset: 4rem;
+  transition: all 0.3s ease;
+}
+
+/*****Clicked Styling*****/
+.shopping-cart path {
+  fill-opacity: 0.1;
+}
+
+.cart-check.click .check-mark polyline {
+  stroke-dashoffset: 0;
 }
 
 /***** Grid Layout *****/
@@ -234,5 +244,13 @@ button {
 }
 
 .btn-icons {
+  position: absolute;
+  left: 1.6rem;
+}
+
+.btn-icon {
+  height: 2rem;
+  vertical-align: middle;
+  padding-right: 1.6rem;
   position: absolute;
 }
