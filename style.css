@@ -78,6 +78,10 @@ p {
   text-align: center;
 }
 
+button {
+  color: #FFFFFF;
+}
+
 header {
   padding-bottom: 5rem;
   padding-top: 3rem;
@@ -89,12 +93,12 @@ header {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  border: 2px solid black;
+  border: 2px solid #FFFFFF;
 }
 
 .jmp-out::after {
   content: "";
-  background-color: #00897B;
+  background-color: #FFFFFF;
   opacity: 1;
   display: block;
   position: absolute;
@@ -109,6 +113,12 @@ header {
   transform: translate(-1rem, 1rem);
 }
 
+/***** Grid Layout *****/
+.grid-item {
+  padding: 10rem;
+}
+
+/***** Grid Colors *****/
 .grid-color-1 {
   background: #00897B;
 }
@@ -127,4 +137,8 @@ header {
 
 .grid-color-5 {
   background: #546E7A;
+}
+
+button {
+  position: relative;
 }
