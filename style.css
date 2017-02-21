@@ -78,8 +78,13 @@ p {
   text-align: center;
 }
 
-button {
+button,
+.btn-txt {
   color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 header {
@@ -88,11 +93,6 @@ header {
 }
 
 .jmp-out {
-  padding: 1rem 5rem;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
   border: 2px solid #FFFFFF;
   background: #00897B;
 }
@@ -116,11 +116,6 @@ header {
 }
 
 .stack {
-  padding: 1rem 5rem;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
   border: 2px solid #FFFFFF;
   background: #D81B60;
 }
@@ -147,6 +142,14 @@ header {
 
 .stack:hover::after {
   transform: translate(-0.75rem, 0.75rem);
+}
+
+.cart-check {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.shopping-cart {
+  fill: #FFFFFF;
 }
 
 /***** Grid Layout *****/
@@ -201,4 +204,9 @@ li {
 button {
   position: relative;
   margin: 1rem;
+  padding: 1rem 5rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
