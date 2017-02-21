@@ -61,7 +61,7 @@ button:hover {
 h1 {
   font-family: "filson-pro", Helvetica, sans-serif;
   font-size: 5rem;
-  color: #333333;
+  color: #FFFFFF;
   letter-spacing: 0.05rem;
   line-height: 6rem;
   text-transform: uppercase;
@@ -72,7 +72,7 @@ h1 {
 p {
   font-family: "filson-pro", Helvetica, sans-serif;
   font-size: 1.8rem;
-  color: #333333;
+  color: #FFFFFF;
   letter-spacing: 0.1rem;
   font-weight: 100;
   text-align: center;
@@ -81,4 +81,26 @@ p {
 header {
   padding-bottom: 5rem;
   padding-top: 3rem;
+}
+
+.jmp-out {
+  padding: 1rem 5rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: 2px solid black;
+}
+
+.jmp-out::after {
+  content: "";
+  background-color: #FFFFFF;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
