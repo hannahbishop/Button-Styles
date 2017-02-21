@@ -151,6 +151,7 @@ header {
 
 /***** Grid Layout *****/
 .grid-item {
+  float: left;
   padding: 10rem 0;
   width: 50%;
   box-sizing: border-box;
