@@ -94,7 +94,7 @@ header {
 
 .jmp-out::after {
   content: "";
-  background-color: #FFFFFF;
+  background-color: #00897B;
   opacity: 1;
   display: block;
   position: absolute;
@@ -103,4 +103,28 @@ header {
   left: 0;
   right: 0;
   z-index: -1;
+}
+
+.jmp-out:hover::after {
+  transform: translate(-1rem, 1rem);
+}
+
+.grid-color-1 {
+  background: #00897B;
+}
+
+.grid-color-2 {
+  background: #D81B60;
+}
+
+.grid-color-3 {
+  background: #1E88E5;
+}
+
+.grid-color-4 {
+  background: #5E35B1;
+}
+
+.grid-color-5 {
+  background: #546E7A;
 }
