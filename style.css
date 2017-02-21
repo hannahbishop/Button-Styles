@@ -153,13 +153,20 @@ header {
   height: 2rem;
   vertical-align: middle;
   padding-right: 1.6rem;
+  position: absolute;
 }
 
 .shopping-cart {
-  fill: #FFFFFF;
+  height: 1.2rem;
 }
 
-.check-mark {
+.shopping-cart path {
+  fill: #FFFFFF;
+  fill-opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.check-mark polyline {
   fill: none;
   stroke: #FFFFFF;
   stroke-linecap: round;
@@ -224,4 +231,8 @@ button {
 
 .btn-txt {
   vertical-align: middle;
+}
+
+.btn-icons {
+  position: relative;
 }
