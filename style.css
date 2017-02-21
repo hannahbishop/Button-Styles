@@ -171,10 +171,6 @@ header {
   padding: 1rem 2rem 1rem 4.6rem;
 }
 
-.shopping-cart {
-  height: 1.2rem;
-}
-
 .shopping-cart path {
   fill: #FFFFFF;
   fill-opacity: 0.7;
@@ -198,7 +194,7 @@ header {
 }
 
 /*****Clicked Styling*****/
-.shopping-cart path {
+.cart-check.click .shopping-cart path {
   fill-opacity: 0.1;
 }
 
