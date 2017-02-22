@@ -88,12 +88,13 @@ p {
 }
 
 a {
-  color: #000000;
+  color: #333333;
   transition: all 0.2s ease;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #767676;
+  color: #000000;
 }
 
 button,
