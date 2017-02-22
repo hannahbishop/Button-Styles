@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('button').click(function(click){
-    $target = $(click.target);
+    var $target = $(click.target).closest('button');
     if ($target.hasClass('click')){
       $target.removeClass('click');
     } else {
