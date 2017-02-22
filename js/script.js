@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $('button').click(function(click){
     var $target = $(click.target).closest('button');
-    if ($target.hasClass('click')){
-      $target.removeClass('click');
+    if ($target.hasClass('active')){
+      $target.removeClass('active');
     } else {
-      $target.addClass('click');
+      $target.addClass('active');
     }
   });
 });
