@@ -1,9 +1,10 @@
 $(document).ready(function() {
-  $('button').click(function(){
-    if ($('button').hasClass('click')){
-      $('button').removeClass('click');
+  $('button').click(function(click){
+    $target = $(click.target);
+    if ($target.hasClass('click')){
+      $target.removeClass('click');
     } else {
-      $('button').addClass('click');
+      $target.addClass('click');
     }
   });
 });
