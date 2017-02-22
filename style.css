@@ -157,12 +157,12 @@ header {
 
 .stack {
   border: 2px solid #FFFFFF;
-  background: #E91E63;
+  background: #FFBD4C;
 }
 
 .stack:hover {
-  color: #E91E63;
-  border-color: #E91E63;
+  color: #FFBD4C;
+  border-color: #FFBD4C;
   background: #FFFFFF;
 }
 
@@ -263,15 +263,15 @@ li {
 
 /***** Grid Colors *****/
 .grid-color-1 {
-  background: #009688;
+  background: #1abc9c;
 }
 
 .grid-color-2 {
-  background: #E91E63;
+  background: #FFBD4C;
 }
 
 .grid-color-3 {
-  background: #673AB7;
+  background: #9b59b6;
 }
 
 .grid-color-4 {
