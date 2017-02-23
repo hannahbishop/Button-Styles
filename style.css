@@ -226,7 +226,7 @@ header {
   stroke-linejoin: round;
   stroke-width: 3px;
   stroke-dasharray: 4rem;
-  stroke-dashoffset: 4rem;
+  stroke-dashoffset: 4.5rem;
   transition: all 0.3s ease;
 }
 
