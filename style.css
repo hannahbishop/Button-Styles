@@ -290,3 +290,19 @@ li {
 .grid-color-5 {
   background: #546E7A;
 }
+
+.btn-d {
+  border: 2px solid #FFFFFF;
+}
+
+.btn-d path {
+  fill: #FFFFFF;
+}
+
+.btn-d .btn-icon {
+  width: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 1.5rem;
+  margin-left: -0.5rem;
+}
