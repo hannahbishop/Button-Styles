@@ -293,6 +293,11 @@ li {
 
 .btn-d {
   border: 2px solid #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+.btn-d:hover {
+  background: #009688;
 }
 
 .btn-d path {
