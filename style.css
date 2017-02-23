@@ -152,7 +152,12 @@ header {
 }
 
 .jmp-out:hover::after {
+  -webkit-transform: translate(-0.75rem, -0.75rem);
+  /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+  -ms-transform: translate(-0.75rem, -0.75rem);
+  /* IE 9 */
   transform: translate(-0.75rem, -0.75rem);
+  /* IE 10, Fx 16+, Op 12.1+ */
 }
 
 .stack {
@@ -181,7 +186,12 @@ header {
 }
 
 .stack:hover::after {
+  -webkit-transform: translate(-0.75rem, 0.75rem);
+  /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+  -ms-transform: translate(-0.75rem, 0.75rem);
+  /* IE 9 */
   transform: translate(-0.75rem, 0.75rem);
+  /* IE 10, Fx 16+, Op 12.1+ */
 }
 
 .cart-check {
