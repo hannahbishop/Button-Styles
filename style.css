@@ -152,7 +152,7 @@ header {
 }
 
 .jmp-out:hover::after {
-  transform: translate(-0.75rem, 0.75rem);
+  transform: translate(-0.75rem, -0.75rem);
 }
 
 .stack {
@@ -235,9 +235,8 @@ header {
 
 /***** Grid Layout *****/
 .grid-item {
-  float: left;
   padding: 10rem 0;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   text-align: center;
   transition: all 0.3s ease;
